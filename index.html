@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="description" content="My first project on GitHub. On this page you can convert date and any words to numbers.">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" id="pgs" href="style1.css">
+		<title>Number One - My first project on GitHub</title>
+	</head>
+	<body>
+		<main>
+			<header id="header">
+				<h1 id="title">Number One</h1>
+				<p id="description">On this page you can convert date and any words to numbers.</p>
+				<div id="chc"></div><noscript>Your browser does not support JavaScript!</noscript>
+			</header>
+			<section id="abm">
+				<header>
+					<h3>About me</h3>
+				</header>
+				<p>I have devoted the last six months of my life to intensive learning of programming. I learned the basics of the Python programming language, then refreshed my knowledge of HTML, CSS and JavaScript. The result of my learning is this very simple website. It has been created to show a sample of my web coding skills.</p>
+				<p>I used the following technologies: HTML5, CSS3, JavaScript, CSS Flexbox, CSS Grid, RWD. The page is responsive, which means that it can be viewed using many different devices such as a desktop or phone. In addition, the website is available in five colour versions.</p>
+				<p>I hope there are no errors in the code. I checked it many times. If you find anything, please contact me. And I will correct it immediately.</p>
+				<p>I know I still have a lot to learn, but I'm happy. I love coding and learning something new. I am open to new challenges related to website development. I think I am ready to participate in professional and more ambitious projects.</p>
+				<p>Please contact me on <a href="https://github.com/coder36459" target="_blank">GitHub</a> or <a href="https://www.linkedin.com/in/maciej-browarski" target="_blank">LinkedIn</a>.</p><br>
+				<p class="right">Maciej Browarski</p>
+				<p class="right">Front-end Developer</p>
+				<p class="right">Last update: August 2023</p>
+			</section>
+			<section>
+				<header>
+					<h3 id="dtn">Date to number</h3>
+				</header>
+				<div class="frw">
+					<div class="fc21">
+						<div class="inb">
+							<input type="text" id="ndate" name="dnumber" value="1" disabled>
+						</div>
+					</div>
+					<div class="fc22">
+						<div class="ind">
+							<label>Date</label>
+							<input type="date" id="date" name="date" value="1970-01-01">
+						</div>
+						<div class="btc">
+							<button type="button" onclick="today()">Today</button>
+							<button type="button" onclick="check()">Check</button>
+						</div>
+						<ul class="lex">
+							<li>For example: 01/01/1970</li>
+							<li>0 + 1 + 0 + 1 + 1 + 9 + 7 + 0 = 19</li>
+							<li>1 + 9 = 10</li>
+							<li>1 + 0 = 1</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section>
+				<header>
+					<h3 id="ttn">Text to number</h3>
+				</header>
+				<div class="frw">
+					<div class="fc21">
+						<div class="inb">
+							<input type="text" id="ntext" name="tnumber" value="9" disabled>
+						</div>
+					</div>
+					<div class="fc22">
+						<div class="ind">
+							<label>Text</label>
+							<input type="text" id="text" class="tex" name="text" value="FOX" disabled>
+						</div>
+						<div id="gkb">
+							<div class="gfd">1</div>
+							<div class="gfd">2</div>
+							<div class="gfd">3</div>
+							<div class="gfd">4</div>
+							<div class="gfd">5</div>
+							<div class="gfd">6</div>
+							<div class="gfd">7</div>
+							<div class="gfd">8</div>
+							<div class="gfd">9</div>							
+							<div class="gfd"><button class="btn">A</button></div>
+							<div class="gfd"><button class="btn">B</button></div>
+							<div class="gfd"><button class="btn">C</button></div>
+							<div class="gfd"><button class="btn">D</button></div>
+							<div class="gfd"><button class="btn">E</button></div>
+							<div class="gfd"><button class="btn">F</button></div>
+							<div class="gfd"><button class="btn">G</button></div>
+							<div class="gfd"><button class="btn">H</button></div>
+							<div class="gfd"><button class="btn">I</button></div>
+							<div class="gfd"><button class="btn">J</button></div>
+							<div class="gfd"><button class="btn">K</button></div>
+							<div class="gfd"><button class="btn">L</button></div>
+							<div class="gfd"><button class="btn">M</button></div>
+							<div class="gfd"><button class="btn">N</button></div>
+							<div class="gfd"><button class="btn">O</button></div>
+							<div class="gfd"><button class="btn">P</button></div>
+							<div class="gfd"><button class="btn">Q</button></div>
+							<div class="gfd"><button class="btn">R</button></div>
+							<div class="gfd"><button class="btn">S</button></div>
+							<div class="gfd"><button class="btn">T</button></div>
+							<div class="gfd"><button class="btn">U</button></div>
+							<div class="gfd"><button class="btn">V</button></div>
+							<div class="gfd"><button class="btn">W</button></div>
+							<div class="gfd"><button class="btn">X</button></div>
+							<div class="gfd"><button class="btn">Y</button></div>
+							<div class="gfd"><button class="btn">Z</button></div>
+							<div class="gfd"></div>
+						</div>
+						<div class="btc">
+							<button type="reset" onclick= "clearInput()">Reset</button>
+							<button type="button" onclick="check()">Check</button>
+						</div>
+						<ul class="lex">
+							<li>For example: FOX</li>
+							<li>F = 6, O = 6, X = 6</li>
+							<li>6 + 6 + 6 = 18</li>
+							<li>1 + 8 = 9</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section>
+				<header>
+					<h3>Total of numbers</h3>
+				</header>
+				<div class="frw">
+					<div class="fc31">
+						<div class="inb">
+							<input type="text" id="total" name="total" value="1" disabled>	
+						</div>
+					</div>
+					<div class="fc32">
+						<header>
+							<h4>Explanation</h4>
+						</header>
+						<div class="gtb">
+							<div class="gcl"><a href="#dtn">DateNumber</a></div>
+							<div class="gcl"><span id="dn">1</span></div>
+							<div class="gcl"><a href="#ttn">TextNumber</a></div>
+							<div class="gcl"><span id="tn">9</span></div>
+							<div class="gcl">Sum</div>
+							<div class="gcl"><span id="ts">10</span></div>
+						</div>
+						<p id="tt">1 + 0 = 1</p>
+					</div>
+					<div class="fc33">
+						<header>
+							<h4>Meaning</h4>
+						</header>
+						<div class="gtb">
+							<div class="gcl">Begin</div>
+							<div class="gcl">1</div>
+							<div class="gcl">Middle</div>
+							<div class="gcl">5</div>
+							<div class="gcl">Finish</div>
+							<div class="gcl">9</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<footer>
+				<p id="author">Made by <strong><a href="https://www.linkedin.com/in/maciej-browarski" target="_blank">Maciej Browarski</a></strong></p>
+				<p id="top"><a href="#header">Top</a></p>
+			</footer>
+		</main>
+		<script src="script.js"></script>
+	</body>
+</html>
